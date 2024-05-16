@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>AJAX Dynamic Details</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Details</h1>
+        <button onclick="studentDetails()">AJAX CALL</button>
+        <table id = "table" class="student_table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id = "data-output">
+                <!-- Populated from the JavaScript File -->
+            </tbody>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+</html>
